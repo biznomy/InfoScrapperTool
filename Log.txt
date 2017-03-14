@@ -1,0 +1,2 @@
+
+D:\ServerCode\crmsoft>call python C:\tempDir\python_script\extract_emails.py motherspridepreschool.com --dataId 16040511414127 -v  1>>ResultLog.txt 
