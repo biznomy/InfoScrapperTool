@@ -1,2 +1,2 @@
 
-D:\ServerCode\crmsoft>call python C:\tempDir\python_script\extract_emails.py motherspridepreschool.com --dataId 16040511414127 -v  1>>ResultLog.txt 
+source_dir>$ call python C:\tempDir\python_script\extract_emails.py <some_website.com> --dataId 16040511414127 -v  1>>ResultLog.txt 
