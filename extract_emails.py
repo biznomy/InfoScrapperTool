@@ -153,12 +153,12 @@ if __name__ == "__main__":
 
 		print noU
 		
-		#req = urllib2.Request('http://localhost:9090/crmsoft/test')
+		#req = urllib2.Request('<your_URL>')
 		#response = urllib2.urlopen(req)
 		#the_page = response.read()
 		print dataId
 		
-		url = 'http://localhost:9090/crmsoft/test'
+		url = '<your_URL>'
 		values = {"emails" : noU, "dataId": dataId}
 		data = urllib.urlencode(values)
 		req = urllib2.Request(url, data)
